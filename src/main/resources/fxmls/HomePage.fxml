@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.HomeController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../Assets/billihome.png" />
+         </image>
+      </ImageView>
+       <Button fx:id="Dashboard" layoutX="47.0" layoutY="269.0" mnemonicParsing="false" onAction="#handleDashboardClick" prefHeight="54.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
+      <Button fx:id="itemList" layoutX="47.0" layoutY="330.0" mnemonicParsing="false" onAction="#handleitemListClick" prefHeight="54.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
+      <Button fx:id="AddItems" layoutX="46.0" layoutY="391.0" mnemonicParsing="false" onAction="#handleAddItemsClick" prefHeight="54.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
+      <Button fx:id="Customers" layoutX="46.0" layoutY="452.0" mnemonicParsing="false" onAction="#handleCustomersClick" prefHeight="54.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
+      <Button fx:id="NewBilling" layoutX="46.0" layoutY="515.0" mnemonicParsing="false" onAction="#handleNewBillingClick" prefHeight="159.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
+      <Button fx:id="printbill" layoutX="937.0" layoutY="574.0" mnemonicParsing="false" onAction="#handleprintbillClick" prefHeight="96.0" prefWidth="138.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
+      <Button fx:id="emailbill" layoutX="1087.0" layoutY="574.0" mnemonicParsing="false" onAction="#handleemailbillClick" prefHeight="96.0" prefWidth="138.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
+   </children>
+</AnchorPane>
