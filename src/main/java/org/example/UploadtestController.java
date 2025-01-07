@@ -77,7 +77,7 @@ public class UploadtestController {
             Files.createDirectories(internalDirPath);
         }
 
-        Path destinationPath = internalDirPath.resolve(file.getName());
+        Path destinationPath = internalDirPath.resolve("logo.png");
         Files.copy(file.toPath(), destinationPath, StandardCopyOption.REPLACE_EXISTING);
     }
 }

@@ -65,7 +65,9 @@ public class Uploadtest2Controller {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxmls/HomePage.fxml"));
         Parent root = loader.load();
         Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        currentStage.setScene(new Scene(root));
+        Scene currentScene = new Scene(root);
+        currentScene.getStylesheets().add(getClass().getResource("/css/tableview.css").toExternalForm());
+        currentStage.setScene(currentScene);
         currentStage.show();
     }
 

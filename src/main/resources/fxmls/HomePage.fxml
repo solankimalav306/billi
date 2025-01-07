@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.HomeController">
    <children>
@@ -19,5 +25,145 @@
       <Button fx:id="NewBilling" layoutX="46.0" layoutY="515.0" mnemonicParsing="false" onAction="#handleNewBillingClick" prefHeight="159.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
       <Button fx:id="printbill" layoutX="937.0" layoutY="574.0" mnemonicParsing="false" onAction="#handleprintbillClick" prefHeight="96.0" prefWidth="138.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
       <Button fx:id="emailbill" layoutX="1087.0" layoutY="574.0" mnemonicParsing="false" onAction="#handleemailbillClick" prefHeight="96.0" prefWidth="138.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
+      <Label fx:id="priceD" layoutX="998.0" layoutY="384.0" text="00.00" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="974.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="₹">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Text>
+      <Label fx:id="priceTotal" layoutX="530.0" layoutY="593.0" text="00.00">
+         <font>
+            <Font name="Segoe UI Bold" size="45.0" />
+         </font>
+      </Label>
+      <Text layoutX="495.0" layoutY="638.0" strokeType="OUTSIDE" strokeWidth="0.0" text="₹">
+         <font>
+            <Font name="Segoe UI Bold" size="45.0" />
+         </font>
+      </Text>
+      <Label fx:id="productnameD" layoutX="963.0" layoutY="182.0" text="Product Name" textFill="#004c8f">
+         <font>
+            <Font name="Segoe UI Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="GSTD" layoutX="1103.0" layoutY="227.0" text="0.0">
+         <font>
+            <Font name="Segoe UI Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="discountD" layoutX="1103.0" layoutY="257.0" text="0.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="LoyalityD" layoutX="1104.0" layoutY="285.0" text="0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="stockD" layoutX="1104.0" layoutY="313.0" text="null">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="964.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GST Applicable: ">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="964.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount: ">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="965.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loyality Points:">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="965.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock:">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="SearchProductD" layoutX="945.0" layoutY="79.0" prefHeight="46.0" prefWidth="223.0" promptText="Search Product No." style="-fx-background-color: FFFFFF; -fx-background-radius: 20;" />
+      <Button fx:id="SearchD" layoutX="1171.0" layoutY="76.0" minWidth="26.0" mnemonicParsing="false" onAction="#handleSearchClick" prefHeight="54.0" prefWidth="54.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
+      <TextField fx:id="quantityB" alignment="CENTER" layoutX="742.0" layoutY="82.0" prefHeight="44.0" prefWidth="51.0" promptText="0" style="-fx-background-radius: 13; -fx-background-color: FFFFFF;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="itemnoB" alignment="CENTER" layoutX="478.0" layoutY="82.0" prefHeight="44.0" prefWidth="94.0" promptText="0" style="-fx-background-radius: 13; -fx-background-color: FFFFFF;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="addtoBill" layoutX="806.0" layoutY="79.0" minWidth="50.0" mnemonicParsing="false" onAction="#handleAddingtoBill" prefHeight="49.0" prefWidth="50.0" style="-fx-opacity: 0;" text="Button" />
+      <Button fx:id="removefromBill" layoutX="863.0" layoutY="79.0" minWidth="50.0" mnemonicParsing="false" onAction="#handleRemovingingtoBill" prefHeight="49.0" prefWidth="50.0" style="-fx-opacity: 0;" text="Button" />
+      <TableView fx:id="newTableView" editable="true" layoutX="267.0" layoutY="155.0" prefHeight="288.0" prefWidth="632.0" stylesheets="@../css/tableview.css">
+        <columns>
+          <TableColumn fx:id="SerialNumber" prefWidth="52.0" text="S. No." />
+          <TableColumn fx:id="ProductName" prefWidth="245.0" text="Product Name" />
+            <TableColumn fx:id="Price" prefWidth="97.0" text="Price" />
+            <TableColumn fx:id="GSTApplicable" prefWidth="50.0" text="GST " />
+            <TableColumn fx:id="Discount" prefWidth="67.0" text="Discount" />
+            <TableColumn fx:id="LoyaltyPoints" prefWidth="53.0" text="Points" />
+            <TableColumn fx:id="Quantity" prefWidth="67.0" text="Quantity" />
+        </columns>
+      </TableView>
+      <Label fx:id="netDiscount" alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="559.0" layoutY="527.0" text="0.0">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="netTotal" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="559.0" layoutY="479.0" text="0.0">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Text layoutX="272.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Total:">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="272.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taxes (CGST &amp; SGST):">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="nettaxes" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="559.0" layoutY="502.0" text="0.0">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Text layoutX="272.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discount Applied: ">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="totalLoyalitypts" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="881.0" layoutY="479.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="646.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Loyality Points:">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="totalquantity" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="883.0" layoutY="530.0" text="0">
+         <font>
+            <Font name="Segoe UI" size="15.0" />
+         </font>
+      </Label>
+      <Text layoutX="645.0" layoutY="544.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity:">
+         <font>
+            <Font name="Segoe UI Bold" size="15.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

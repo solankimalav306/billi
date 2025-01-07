@@ -1,0 +1,1001 @@
+SerialNumber,ProductName,Price,GSTApplicable,Discount,LoyaltyPoints,StockAvailability
+1,Bath Soap,35,18,2,35,0
+2,Potato (1kg),25,0,5,18,0
+3,Wheat Flour (2kg),120,5,10,18,0
+4,Toothpaste,90,12,10,26,1
+5,Sugar (1kg),45,5,7,42,0
+6,Wheat Flour (2kg),120,5,0,43,1
+7,Wheat Flour (2kg),120,5,3,37,0
+8,Coffee Powder,500,5,10,24,1
+9,Wheat Flour (2kg),120,5,10,50,1
+10,Biscuits (Pack),40,12,8,43,1
+11,Bath Soap,35,18,8,21,0
+12,Wheat Flour (2kg),120,5,10,9,1
+13,Wheat Flour (2kg),120,5,7,14,0
+14,Wheat Flour (2kg),120,5,7,1,0
+15,Tea Powder (500g),220,5,2,49,1
+16,Tea Powder (500g),220,5,1,29,1
+17,Sugar (1kg),45,5,6,16,1
+18,Tea Powder (500g),220,5,4,17,0
+19,Coffee Powder,500,5,9,41,1
+20,Bath Soap,35,18,6,28,0
+21,Bread (Loaf),50,5,8,16,1
+22,Potato (1kg),25,0,7,46,1
+23,Salt Packet (1kg),20,0,0,32,1
+24,Salt Packet (1kg),20,0,8,35,1
+25,Biscuits (Pack),40,12,7,22,0
+26,Rice (5kg),250,5,0,42,1
+27,Detergent Powder,300,18,6,47,1
+28,Wheat Flour (2kg),120,5,0,40,1
+29,Potato (1kg),25,0,5,40,1
+30,Wheat Flour (2kg),120,5,7,9,0
+31,Bread (Loaf),50,5,6,3,0
+32,Onion (1kg),30,0,0,50,1
+33,Salt Packet (1kg),20,0,2,27,1
+34,Rice (5kg),250,5,7,10,1
+35,Onion (1kg),30,0,8,5,1
+36,Bath Soap,35,18,10,35,1
+37,Cooking Oil (1L),180,5,3,49,0
+38,Onion (1kg),30,0,0,27,1
+39,Coffee Powder,500,5,8,42,1
+40,Bath Soap,35,18,6,17,1
+41,Bread (Loaf),50,5,1,12,0
+42,Bath Soap,35,18,6,44,1
+43,Wheat Flour (2kg),120,5,9,46,0
+44,Rice (5kg),250,5,0,20,1
+45,Coffee Powder,500,5,2,43,1
+46,Tea Powder (500g),220,5,9,33,0
+47,Toothpaste,90,12,1,3,0
+48,Toothpaste,90,12,9,2,0
+49,Bread (Loaf),50,5,0,31,1
+50,Rice (5kg),250,5,9,47,0
+51,Tea Powder (500g),220,5,3,26,1
+52,Milk Packet (1L),60,0,8,33,0
+53,Sugar (1kg),45,5,7,34,1
+54,Rice (5kg),250,5,8,43,1
+55,Potato (1kg),25,0,7,4,1
+56,Rice (5kg),250,5,4,34,0
+57,Salt Packet (1kg),20,0,0,21,0
+58,Sugar (1kg),45,5,1,17,1
+59,Bread (Loaf),50,5,10,38,1
+60,Bath Soap,35,18,2,11,1
+61,Milk Packet (1L),60,0,8,28,0
+62,Onion (1kg),30,0,9,20,1
+63,Tea Powder (500g),220,5,3,5,0
+64,Potato (1kg),25,0,0,43,0
+65,Bread (Loaf),50,5,9,37,0
+66,Detergent Powder,300,18,8,20,0
+67,Potato (1kg),25,0,6,46,1
+68,Onion (1kg),30,0,0,24,0
+69,Toothpaste,90,12,3,32,1
+70,Onion (1kg),30,0,0,14,0
+71,Bath Soap,35,18,2,10,1
+72,Biscuits (Pack),40,12,3,28,1
+73,Bread (Loaf),50,5,8,26,0
+74,Cooking Oil (1L),180,5,9,44,0
+75,Coffee Powder,500,5,3,35,0
+76,Cooking Oil (1L),180,5,9,21,0
+77,Onion (1kg),30,0,0,16,0
+78,Tea Powder (500g),220,5,3,7,1
+79,Biscuits (Pack),40,12,3,30,0
+80,Bread (Loaf),50,5,1,5,1
+81,Milk Packet (1L),60,0,1,7,0
+82,Toothpaste,90,12,2,1,1
+83,Onion (1kg),30,0,7,2,1
+84,Potato (1kg),25,0,9,4,1
+85,Tea Powder (500g),220,5,9,45,0
+86,Biscuits (Pack),40,12,1,50,1
+87,Tea Powder (500g),220,5,0,39,0
+88,Coffee Powder,500,5,8,10,0
+89,Wheat Flour (2kg),120,5,10,20,1
+90,Tea Powder (500g),220,5,9,48,0
+91,Rice (5kg),250,5,8,16,0
+92,Bread (Loaf),50,5,10,21,1
+93,Toothpaste,90,12,1,13,0
+94,Coffee Powder,500,5,9,37,1
+95,Onion (1kg),30,0,9,33,1
+96,Rice (5kg),250,5,9,21,1
+97,Detergent Powder,300,18,2,9,1
+98,Wheat Flour (2kg),120,5,7,35,0
+99,Cooking Oil (1L),180,5,2,32,1
+100,Bread (Loaf),50,5,1,44,0
+101,Sugar (1kg),45,5,10,35,1
+102,Bread (Loaf),50,5,8,31,1
+103,Toothpaste,90,12,9,15,1
+104,Wheat Flour (2kg),120,5,7,25,1
+105,Coffee Powder,500,5,10,37,0
+106,Tea Powder (500g),220,5,3,1,1
+107,Detergent Powder,300,18,0,41,1
+108,Bread (Loaf),50,5,10,20,1
+109,Onion (1kg),30,0,6,5,0
+110,Sugar (1kg),45,5,0,2,0
+111,Salt Packet (1kg),20,0,8,11,1
+112,Coffee Powder,500,5,6,6,1
+113,Sugar (1kg),45,5,10,27,1
+114,Sugar (1kg),45,5,5,42,1
+115,Sugar (1kg),45,5,8,19,0
+116,Wheat Flour (2kg),120,5,2,5,1
+117,Bath Soap,35,18,3,30,0
+118,Bath Soap,35,18,8,28,0
+119,Onion (1kg),30,0,0,50,1
+120,Detergent Powder,300,18,1,39,0
+121,Coffee Powder,500,5,1,31,1
+122,Salt Packet (1kg),20,0,6,44,1
+123,Bath Soap,35,18,0,11,1
+124,Cooking Oil (1L),180,5,7,4,0
+125,Tea Powder (500g),220,5,6,5,0
+126,Potato (1kg),25,0,5,12,1
+127,Biscuits (Pack),40,12,2,43,1
+128,Sugar (1kg),45,5,7,6,1
+129,Potato (1kg),25,0,9,2,0
+130,Bath Soap,35,18,2,40,1
+131,Bread (Loaf),50,5,10,41,0
+132,Bread (Loaf),50,5,7,24,0
+133,Milk Packet (1L),60,0,2,39,1
+134,Cooking Oil (1L),180,5,8,13,0
+135,Coffee Powder,500,5,7,39,0
+136,Tea Powder (500g),220,5,8,40,0
+137,Toothpaste,90,12,10,41,1
+138,Rice (5kg),250,5,6,39,1
+139,Salt Packet (1kg),20,0,10,32,1
+140,Cooking Oil (1L),180,5,9,28,1
+141,Sugar (1kg),45,5,3,26,0
+142,Tea Powder (500g),220,5,5,23,1
+143,Rice (5kg),250,5,0,39,0
+144,Coffee Powder,500,5,4,23,0
+145,Rice (5kg),250,5,8,45,0
+146,Potato (1kg),25,0,0,17,1
+147,Sugar (1kg),45,5,4,11,1
+148,Coffee Powder,500,5,3,14,1
+149,Bread (Loaf),50,5,1,13,1
+150,Cooking Oil (1L),180,5,5,9,1
+151,Onion (1kg),30,0,7,5,0
+152,Bread (Loaf),50,5,6,22,1
+153,Salt Packet (1kg),20,0,1,31,0
+154,Tea Powder (500g),220,5,10,13,1
+155,Biscuits (Pack),40,12,0,40,0
+156,Rice (5kg),250,5,6,9,0
+157,Coffee Powder,500,5,9,3,0
+158,Sugar (1kg),45,5,3,43,1
+159,Toothpaste,90,12,9,1,1
+160,Wheat Flour (2kg),120,5,0,15,0
+161,Salt Packet (1kg),20,0,8,20,0
+162,Wheat Flour (2kg),120,5,0,7,0
+163,Onion (1kg),30,0,10,46,0
+164,Bath Soap,35,18,9,42,1
+165,Toothpaste,90,12,0,40,1
+166,Coffee Powder,500,5,10,33,0
+167,Biscuits (Pack),40,12,1,34,0
+168,Potato (1kg),25,0,2,2,1
+169,Rice (5kg),250,5,4,33,0
+170,Wheat Flour (2kg),120,5,8,9,0
+171,Coffee Powder,500,5,2,7,0
+172,Wheat Flour (2kg),120,5,5,26,1
+173,Coffee Powder,500,5,4,29,0
+174,Milk Packet (1L),60,0,3,18,1
+175,Detergent Powder,300,18,9,42,1
+176,Toothpaste,90,12,4,31,0
+177,Sugar (1kg),45,5,7,10,1
+178,Salt Packet (1kg),20,0,10,11,0
+179,Tea Powder (500g),220,5,0,8,0
+180,Coffee Powder,500,5,5,10,0
+181,Bath Soap,35,18,9,22,0
+182,Biscuits (Pack),40,12,7,39,0
+183,Potato (1kg),25,0,0,30,1
+184,Biscuits (Pack),40,12,0,16,1
+185,Sugar (1kg),45,5,0,7,1
+186,Rice (5kg),250,5,10,32,0
+187,Bread (Loaf),50,5,3,11,1
+188,Sugar (1kg),45,5,9,31,1
+189,Potato (1kg),25,0,5,29,0
+190,Cooking Oil (1L),180,5,8,45,0
+191,Sugar (1kg),45,5,6,41,0
+192,Milk Packet (1L),60,0,7,22,1
+193,Toothpaste,90,12,4,42,0
+194,Salt Packet (1kg),20,0,0,32,1
+195,Detergent Powder,300,18,3,15,0
+196,Toothpaste,90,12,9,5,0
+197,Salt Packet (1kg),20,0,7,5,0
+198,Bath Soap,35,18,2,4,1
+199,Potato (1kg),25,0,4,3,1
+200,Toothpaste,90,12,6,5,0
+201,Tea Powder (500g),220,5,10,30,1
+202,Bread (Loaf),50,5,10,41,1
+203,Onion (1kg),30,0,10,4,1
+204,Sugar (1kg),45,5,9,33,1
+205,Bread (Loaf),50,5,10,25,1
+206,Rice (5kg),250,5,0,18,0
+207,Wheat Flour (2kg),120,5,1,1,1
+208,Wheat Flour (2kg),120,5,9,19,1
+209,Milk Packet (1L),60,0,2,40,1
+210,Potato (1kg),25,0,9,13,1
+211,Detergent Powder,300,18,5,49,1
+212,Milk Packet (1L),60,0,9,2,0
+213,Wheat Flour (2kg),120,5,0,7,1
+214,Salt Packet (1kg),20,0,6,43,1
+215,Detergent Powder,300,18,10,4,0
+216,Rice (5kg),250,5,5,49,1
+217,Detergent Powder,300,18,9,18,0
+218,Wheat Flour (2kg),120,5,10,10,1
+219,Bread (Loaf),50,5,3,1,0
+220,Wheat Flour (2kg),120,5,8,35,1
+221,Coffee Powder,500,5,0,7,0
+222,Wheat Flour (2kg),120,5,2,30,0
+223,Coffee Powder,500,5,6,45,0
+224,Bath Soap,35,18,0,46,1
+225,Salt Packet (1kg),20,0,5,26,0
+226,Milk Packet (1L),60,0,9,3,1
+227,Salt Packet (1kg),20,0,3,24,1
+228,Detergent Powder,300,18,5,30,1
+229,Onion (1kg),30,0,4,7,1
+230,Bath Soap,35,18,5,19,1
+231,Milk Packet (1L),60,0,3,1,1
+232,Rice (5kg),250,5,3,29,1
+233,Coffee Powder,500,5,5,41,1
+234,Detergent Powder,300,18,1,14,1
+235,Tea Powder (500g),220,5,9,15,1
+236,Coffee Powder,500,5,10,7,1
+237,Detergent Powder,300,18,3,8,0
+238,Bread (Loaf),50,5,4,12,1
+239,Detergent Powder,300,18,1,9,0
+240,Salt Packet (1kg),20,0,2,19,1
+241,Bath Soap,35,18,4,37,0
+242,Tea Powder (500g),220,5,9,44,1
+243,Cooking Oil (1L),180,5,3,11,1
+244,Cooking Oil (1L),180,5,5,27,1
+245,Detergent Powder,300,18,7,25,0
+246,Wheat Flour (2kg),120,5,3,28,0
+247,Rice (5kg),250,5,3,46,0
+248,Onion (1kg),30,0,6,15,1
+249,Toothpaste,90,12,5,20,1
+250,Biscuits (Pack),40,12,0,30,1
+251,Bread (Loaf),50,5,8,26,0
+252,Onion (1kg),30,0,9,11,1
+253,Biscuits (Pack),40,12,0,8,0
+254,Potato (1kg),25,0,6,46,1
+255,Salt Packet (1kg),20,0,4,26,1
+256,Rice (5kg),250,5,4,2,0
+257,Cooking Oil (1L),180,5,5,13,0
+258,Coffee Powder,500,5,4,30,0
+259,Biscuits (Pack),40,12,0,41,0
+260,Onion (1kg),30,0,8,24,0
+261,Wheat Flour (2kg),120,5,7,37,1
+262,Onion (1kg),30,0,6,46,0
+263,Toothpaste,90,12,6,14,0
+264,Onion (1kg),30,0,10,19,0
+265,Bread (Loaf),50,5,2,3,1
+266,Coffee Powder,500,5,1,2,1
+267,Tea Powder (500g),220,5,3,8,0
+268,Bath Soap,35,18,3,28,1
+269,Tea Powder (500g),220,5,9,6,1
+270,Sugar (1kg),45,5,6,1,0
+271,Bread (Loaf),50,5,3,39,1
+272,Cooking Oil (1L),180,5,3,23,0
+273,Toothpaste,90,12,0,6,0
+274,Detergent Powder,300,18,10,30,1
+275,Onion (1kg),30,0,3,21,0
+276,Toothpaste,90,12,0,46,1
+277,Rice (5kg),250,5,6,42,1
+278,Rice (5kg),250,5,5,25,0
+279,Sugar (1kg),45,5,5,48,1
+280,Sugar (1kg),45,5,7,39,1
+281,Detergent Powder,300,18,1,45,0
+282,Onion (1kg),30,0,3,29,0
+283,Cooking Oil (1L),180,5,9,17,1
+284,Bread (Loaf),50,5,10,8,1
+285,Detergent Powder,300,18,9,16,1
+286,Salt Packet (1kg),20,0,3,39,0
+287,Toothpaste,90,12,7,39,1
+288,Milk Packet (1L),60,0,8,32,0
+289,Potato (1kg),25,0,8,9,1
+290,Coffee Powder,500,5,4,27,1
+291,Sugar (1kg),45,5,9,5,1
+292,Onion (1kg),30,0,6,9,1
+293,Sugar (1kg),45,5,3,7,0
+294,Coffee Powder,500,5,6,13,0
+295,Toothpaste,90,12,2,50,0
+296,Toothpaste,90,12,6,15,1
+297,Sugar (1kg),45,5,2,14,1
+298,Potato (1kg),25,0,9,19,1
+299,Wheat Flour (2kg),120,5,9,35,1
+300,Cooking Oil (1L),180,5,7,45,1
+301,Tea Powder (500g),220,5,7,7,0
+302,Bath Soap,35,18,2,15,0
+303,Biscuits (Pack),40,12,1,28,0
+304,Cooking Oil (1L),180,5,4,24,0
+305,Potato (1kg),25,0,10,18,0
+306,Toothpaste,90,12,1,4,1
+307,Tea Powder (500g),220,5,6,47,0
+308,Toothpaste,90,12,1,12,0
+309,Rice (5kg),250,5,10,49,0
+310,Coffee Powder,500,5,6,37,1
+311,Coffee Powder,500,5,2,29,1
+312,Tea Powder (500g),220,5,6,43,0
+313,Rice (5kg),250,5,10,47,0
+314,Bath Soap,35,18,10,38,0
+315,Cooking Oil (1L),180,5,5,32,1
+316,Toothpaste,90,12,2,6,0
+317,Milk Packet (1L),60,0,7,3,0
+318,Milk Packet (1L),60,0,5,40,1
+319,Potato (1kg),25,0,4,28,1
+320,Wheat Flour (2kg),120,5,8,3,1
+321,Cooking Oil (1L),180,5,3,37,1
+322,Tea Powder (500g),220,5,1,38,1
+323,Wheat Flour (2kg),120,5,2,37,1
+324,Biscuits (Pack),40,12,3,27,0
+325,Bath Soap,35,18,9,11,1
+326,Biscuits (Pack),40,12,8,48,1
+327,Salt Packet (1kg),20,0,9,37,1
+328,Bread (Loaf),50,5,3,25,1
+329,Sugar (1kg),45,5,3,27,0
+330,Wheat Flour (2kg),120,5,10,49,0
+331,Onion (1kg),30,0,2,40,1
+332,Onion (1kg),30,0,6,7,1
+333,Biscuits (Pack),40,12,7,20,1
+334,Coffee Powder,500,5,4,24,0
+335,Coffee Powder,500,5,0,39,1
+336,Onion (1kg),30,0,4,15,1
+337,Salt Packet (1kg),20,0,3,10,0
+338,Sugar (1kg),45,5,0,22,0
+339,Bath Soap,35,18,2,21,0
+340,Milk Packet (1L),60,0,3,3,1
+341,Coffee Powder,500,5,6,48,0
+342,Sugar (1kg),45,5,4,26,1
+343,Rice (5kg),250,5,1,27,1
+344,Wheat Flour (2kg),120,5,2,10,1
+345,Salt Packet (1kg),20,0,6,26,0
+346,Wheat Flour (2kg),120,5,1,15,0
+347,Coffee Powder,500,5,7,37,1
+348,Toothpaste,90,12,2,44,0
+349,Rice (5kg),250,5,8,47,1
+350,Rice (5kg),250,5,3,49,1
+351,Toothpaste,90,12,9,42,0
+352,Cooking Oil (1L),180,5,4,37,1
+353,Cooking Oil (1L),180,5,7,6,0
+354,Onion (1kg),30,0,3,21,0
+355,Detergent Powder,300,18,4,23,0
+356,Tea Powder (500g),220,5,4,44,1
+357,Rice (5kg),250,5,3,36,1
+358,Wheat Flour (2kg),120,5,1,29,0
+359,Coffee Powder,500,5,9,25,0
+360,Biscuits (Pack),40,12,6,29,1
+361,Biscuits (Pack),40,12,2,32,0
+362,Onion (1kg),30,0,0,33,1
+363,Coffee Powder,500,5,8,22,0
+364,Rice (5kg),250,5,0,19,0
+365,Wheat Flour (2kg),120,5,9,12,0
+366,Milk Packet (1L),60,0,1,19,1
+367,Milk Packet (1L),60,0,8,18,0
+368,Salt Packet (1kg),20,0,8,33,0
+369,Wheat Flour (2kg),120,5,2,29,0
+370,Cooking Oil (1L),180,5,7,4,0
+371,Sugar (1kg),45,5,4,33,1
+372,Detergent Powder,300,18,9,38,1
+373,Biscuits (Pack),40,12,6,24,0
+374,Detergent Powder,300,18,3,26,1
+375,Salt Packet (1kg),20,0,7,38,1
+376,Toothpaste,90,12,2,15,0
+377,Bread (Loaf),50,5,1,20,0
+378,Detergent Powder,300,18,2,49,0
+379,Wheat Flour (2kg),120,5,1,18,1
+380,Cooking Oil (1L),180,5,7,41,0
+381,Bread (Loaf),50,5,2,50,0
+382,Tea Powder (500g),220,5,10,23,0
+383,Potato (1kg),25,0,0,34,1
+384,Bath Soap,35,18,2,27,0
+385,Toothpaste,90,12,7,27,0
+386,Wheat Flour (2kg),120,5,1,28,1
+387,Rice (5kg),250,5,8,16,1
+388,Biscuits (Pack),40,12,7,28,0
+389,Toothpaste,90,12,8,6,1
+390,Salt Packet (1kg),20,0,2,24,0
+391,Cooking Oil (1L),180,5,3,18,0
+392,Wheat Flour (2kg),120,5,0,37,1
+393,Sugar (1kg),45,5,8,42,0
+394,Detergent Powder,300,18,4,47,1
+395,Bread (Loaf),50,5,1,39,0
+396,Onion (1kg),30,0,8,7,0
+397,Toothpaste,90,12,5,14,1
+398,Sugar (1kg),45,5,2,48,0
+399,Onion (1kg),30,0,0,18,0
+400,Onion (1kg),30,0,4,23,0
+401,Tea Powder (500g),220,5,9,12,0
+402,Potato (1kg),25,0,0,9,1
+403,Detergent Powder,300,18,5,42,0
+404,Sugar (1kg),45,5,6,27,1
+405,Coffee Powder,500,5,5,15,1
+406,Salt Packet (1kg),20,0,6,9,1
+407,Wheat Flour (2kg),120,5,8,35,1
+408,Toothpaste,90,12,4,45,1
+409,Salt Packet (1kg),20,0,4,45,0
+410,Bath Soap,35,18,8,12,0
+411,Rice (5kg),250,5,7,30,1
+412,Onion (1kg),30,0,4,37,1
+413,Wheat Flour (2kg),120,5,7,50,0
+414,Bread (Loaf),50,5,8,34,1
+415,Cooking Oil (1L),180,5,5,28,1
+416,Onion (1kg),30,0,5,10,0
+417,Coffee Powder,500,5,4,21,0
+418,Potato (1kg),25,0,5,50,1
+419,Cooking Oil (1L),180,5,3,48,0
+420,Tea Powder (500g),220,5,2,43,1
+421,Bread (Loaf),50,5,0,50,0
+422,Biscuits (Pack),40,12,9,23,1
+423,Toothpaste,90,12,2,1,0
+424,Toothpaste,90,12,8,4,1
+425,Tea Powder (500g),220,5,10,4,0
+426,Salt Packet (1kg),20,0,0,50,0
+427,Bread (Loaf),50,5,3,1,0
+428,Tea Powder (500g),220,5,9,26,0
+429,Milk Packet (1L),60,0,2,40,0
+430,Sugar (1kg),45,5,9,33,1
+431,Sugar (1kg),45,5,6,1,0
+432,Milk Packet (1L),60,0,8,24,1
+433,Onion (1kg),30,0,8,48,0
+434,Milk Packet (1L),60,0,3,8,0
+435,Toothpaste,90,12,9,24,1
+436,Sugar (1kg),45,5,4,12,1
+437,Salt Packet (1kg),20,0,7,49,0
+438,Rice (5kg),250,5,2,16,0
+439,Potato (1kg),25,0,10,10,1
+440,Potato (1kg),25,0,9,49,1
+441,Salt Packet (1kg),20,0,9,29,1
+442,Salt Packet (1kg),20,0,6,11,0
+443,Wheat Flour (2kg),120,5,10,35,0
+444,Biscuits (Pack),40,12,9,1,1
+445,Wheat Flour (2kg),120,5,3,35,0
+446,Bread (Loaf),50,5,8,17,1
+447,Potato (1kg),25,0,9,12,0
+448,Potato (1kg),25,0,7,14,1
+449,Toothpaste,90,12,0,20,1
+450,Onion (1kg),30,0,3,42,1
+451,Biscuits (Pack),40,12,10,31,0
+452,Rice (5kg),250,5,3,9,1
+453,Tea Powder (500g),220,5,8,6,1
+454,Milk Packet (1L),60,0,7,40,0
+455,Biscuits (Pack),40,12,7,37,0
+456,Rice (5kg),250,5,4,39,1
+457,Coffee Powder,500,5,5,46,1
+458,Wheat Flour (2kg),120,5,8,21,0
+459,Bread (Loaf),50,5,6,21,0
+460,Wheat Flour (2kg),120,5,7,22,0
+461,Milk Packet (1L),60,0,3,41,1
+462,Milk Packet (1L),60,0,5,47,0
+463,Biscuits (Pack),40,12,0,1,1
+464,Biscuits (Pack),40,12,6,9,0
+465,Onion (1kg),30,0,1,8,1
+466,Tea Powder (500g),220,5,4,34,0
+467,Potato (1kg),25,0,2,36,0
+468,Bread (Loaf),50,5,6,8,1
+469,Onion (1kg),30,0,9,40,1
+470,Bath Soap,35,18,1,31,1
+471,Detergent Powder,300,18,1,7,1
+472,Biscuits (Pack),40,12,9,10,0
+473,Sugar (1kg),45,5,10,11,1
+474,Bath Soap,35,18,9,1,0
+475,Bread (Loaf),50,5,6,11,1
+476,Cooking Oil (1L),180,5,4,32,1
+477,Bath Soap,35,18,4,8,1
+478,Biscuits (Pack),40,12,6,17,0
+479,Bath Soap,35,18,3,15,0
+480,Tea Powder (500g),220,5,4,39,0
+481,Cooking Oil (1L),180,5,7,9,0
+482,Tea Powder (500g),220,5,7,39,0
+483,Bread (Loaf),50,5,3,31,1
+484,Toothpaste,90,12,6,28,0
+485,Cooking Oil (1L),180,5,5,11,1
+486,Onion (1kg),30,0,8,35,0
+487,Biscuits (Pack),40,12,2,6,1
+488,Milk Packet (1L),60,0,7,40,0
+489,Bath Soap,35,18,3,23,1
+490,Detergent Powder,300,18,6,47,1
+491,Potato (1kg),25,0,1,16,1
+492,Salt Packet (1kg),20,0,10,17,0
+493,Coffee Powder,500,5,4,28,1
+494,Salt Packet (1kg),20,0,0,45,0
+495,Onion (1kg),30,0,2,19,1
+496,Onion (1kg),30,0,3,37,0
+497,Bath Soap,35,18,4,25,1
+498,Sugar (1kg),45,5,2,33,0
+499,Bread (Loaf),50,5,6,49,0
+500,Sugar (1kg),45,5,0,21,0
+501,Onion (1kg),30,0,6,37,1
+502,Onion (1kg),30,0,10,13,0
+503,Coffee Powder,500,5,4,16,1
+504,Tea Powder (500g),220,5,0,26,1
+505,Tea Powder (500g),220,5,0,3,1
+506,Cooking Oil (1L),180,5,4,1,0
+507,Detergent Powder,300,18,9,49,0
+508,Bread (Loaf),50,5,8,45,1
+509,Bread (Loaf),50,5,8,33,0
+510,Detergent Powder,300,18,6,48,0
+511,Toothpaste,90,12,1,10,0
+512,Bath Soap,35,18,7,5,1
+513,Cooking Oil (1L),180,5,8,38,1
+514,Salt Packet (1kg),20,0,9,3,1
+515,Biscuits (Pack),40,12,0,1,0
+516,Detergent Powder,300,18,9,2,0
+517,Potato (1kg),25,0,7,44,0
+518,Salt Packet (1kg),20,0,9,4,0
+519,Tea Powder (500g),220,5,8,12,0
+520,Wheat Flour (2kg),120,5,2,37,1
+521,Rice (5kg),250,5,5,29,1
+522,Coffee Powder,500,5,2,25,0
+523,Toothpaste,90,12,4,20,0
+524,Sugar (1kg),45,5,6,36,1
+525,Wheat Flour (2kg),120,5,2,37,1
+526,Rice (5kg),250,5,10,41,0
+527,Detergent Powder,300,18,2,9,1
+528,Milk Packet (1L),60,0,8,46,0
+529,Toothpaste,90,12,7,22,0
+530,Cooking Oil (1L),180,5,10,15,0
+531,Rice (5kg),250,5,6,23,0
+532,Biscuits (Pack),40,12,0,26,1
+533,Detergent Powder,300,18,4,47,0
+534,Coffee Powder,500,5,10,29,0
+535,Salt Packet (1kg),20,0,6,3,1
+536,Toothpaste,90,12,7,48,0
+537,Tea Powder (500g),220,5,1,18,0
+538,Milk Packet (1L),60,0,1,34,1
+539,Tea Powder (500g),220,5,9,50,1
+540,Rice (5kg),250,5,6,6,0
+541,Biscuits (Pack),40,12,5,50,0
+542,Milk Packet (1L),60,0,10,35,1
+543,Tea Powder (500g),220,5,4,2,1
+544,Wheat Flour (2kg),120,5,1,25,0
+545,Biscuits (Pack),40,12,6,10,0
+546,Salt Packet (1kg),20,0,7,23,1
+547,Bath Soap,35,18,7,46,1
+548,Bread (Loaf),50,5,3,10,1
+549,Bread (Loaf),50,5,8,8,1
+550,Bread (Loaf),50,5,0,43,0
+551,Toothpaste,90,12,8,35,0
+552,Sugar (1kg),45,5,1,24,0
+553,Rice (5kg),250,5,3,47,0
+554,Bread (Loaf),50,5,10,9,1
+555,Sugar (1kg),45,5,0,16,0
+556,Sugar (1kg),45,5,3,6,0
+557,Milk Packet (1L),60,0,2,26,0
+558,Sugar (1kg),45,5,9,27,0
+559,Sugar (1kg),45,5,9,9,0
+560,Coffee Powder,500,5,9,22,0
+561,Milk Packet (1L),60,0,6,13,0
+562,Toothpaste,90,12,2,14,0
+563,Tea Powder (500g),220,5,5,20,0
+564,Biscuits (Pack),40,12,4,9,1
+565,Potato (1kg),25,0,7,9,0
+566,Biscuits (Pack),40,12,1,13,0
+567,Bread (Loaf),50,5,10,37,1
+568,Toothpaste,90,12,1,43,1
+569,Toothpaste,90,12,2,50,0
+570,Biscuits (Pack),40,12,10,23,1
+571,Tea Powder (500g),220,5,10,2,0
+572,Potato (1kg),25,0,9,22,0
+573,Bath Soap,35,18,7,25,1
+574,Bread (Loaf),50,5,7,43,1
+575,Salt Packet (1kg),20,0,2,9,1
+576,Toothpaste,90,12,5,1,1
+577,Coffee Powder,500,5,9,5,1
+578,Sugar (1kg),45,5,4,16,0
+579,Biscuits (Pack),40,12,6,32,1
+580,Rice (5kg),250,5,7,30,1
+581,Milk Packet (1L),60,0,6,9,0
+582,Bath Soap,35,18,8,22,0
+583,Toothpaste,90,12,3,29,1
+584,Detergent Powder,300,18,8,16,1
+585,Sugar (1kg),45,5,4,44,1
+586,Rice (5kg),250,5,3,5,1
+587,Toothpaste,90,12,6,50,1
+588,Tea Powder (500g),220,5,8,39,0
+589,Sugar (1kg),45,5,2,43,1
+590,Bread (Loaf),50,5,4,39,0
+591,Potato (1kg),25,0,3,50,1
+592,Potato (1kg),25,0,0,43,1
+593,Toothpaste,90,12,5,48,1
+594,Tea Powder (500g),220,5,5,44,1
+595,Wheat Flour (2kg),120,5,8,32,0
+596,Milk Packet (1L),60,0,9,45,1
+597,Biscuits (Pack),40,12,1,48,1
+598,Bread (Loaf),50,5,6,9,1
+599,Coffee Powder,500,5,6,33,0
+600,Tea Powder (500g),220,5,6,29,1
+601,Salt Packet (1kg),20,0,7,1,0
+602,Bread (Loaf),50,5,7,13,1
+603,Toothpaste,90,12,3,5,1
+604,Biscuits (Pack),40,12,7,45,1
+605,Bread (Loaf),50,5,10,6,0
+606,Rice (5kg),250,5,8,36,1
+607,Milk Packet (1L),60,0,5,23,0
+608,Detergent Powder,300,18,3,27,1
+609,Bath Soap,35,18,7,40,0
+610,Salt Packet (1kg),20,0,9,28,1
+611,Tea Powder (500g),220,5,3,20,0
+612,Cooking Oil (1L),180,5,5,37,0
+613,Toothpaste,90,12,10,32,0
+614,Coffee Powder,500,5,4,33,1
+615,Bread (Loaf),50,5,6,6,1
+616,Milk Packet (1L),60,0,9,12,1
+617,Tea Powder (500g),220,5,6,7,0
+618,Milk Packet (1L),60,0,1,22,1
+619,Coffee Powder,500,5,4,36,1
+620,Toothpaste,90,12,2,39,0
+621,Coffee Powder,500,5,5,10,0
+622,Salt Packet (1kg),20,0,3,12,0
+623,Salt Packet (1kg),20,0,8,46,0
+624,Rice (5kg),250,5,5,17,0
+625,Coffee Powder,500,5,9,35,0
+626,Coffee Powder,500,5,7,49,1
+627,Toothpaste,90,12,6,37,0
+628,Cooking Oil (1L),180,5,7,44,1
+629,Detergent Powder,300,18,0,20,1
+630,Sugar (1kg),45,5,1,44,1
+631,Milk Packet (1L),60,0,0,34,1
+632,Onion (1kg),30,0,0,1,0
+633,Bath Soap,35,18,4,18,0
+634,Toothpaste,90,12,8,23,1
+635,Rice (5kg),250,5,9,48,1
+636,Coffee Powder,500,5,0,25,1
+637,Detergent Powder,300,18,6,41,0
+638,Rice (5kg),250,5,9,48,0
+639,Bread (Loaf),50,5,1,46,1
+640,Toothpaste,90,12,5,46,0
+641,Bread (Loaf),50,5,0,10,0
+642,Toothpaste,90,12,5,14,0
+643,Coffee Powder,500,5,3,31,1
+644,Toothpaste,90,12,4,46,1
+645,Wheat Flour (2kg),120,5,4,18,1
+646,Cooking Oil (1L),180,5,9,16,1
+647,Milk Packet (1L),60,0,10,47,0
+648,Onion (1kg),30,0,0,44,1
+649,Cooking Oil (1L),180,5,10,7,0
+650,Detergent Powder,300,18,6,49,0
+651,Salt Packet (1kg),20,0,7,1,1
+652,Milk Packet (1L),60,0,10,24,1
+653,Salt Packet (1kg),20,0,1,13,1
+654,Bread (Loaf),50,5,0,42,1
+655,Bread (Loaf),50,5,5,14,0
+656,Toothpaste,90,12,10,1,0
+657,Biscuits (Pack),40,12,1,9,0
+658,Sugar (1kg),45,5,9,20,1
+659,Milk Packet (1L),60,0,7,24,0
+660,Coffee Powder,500,5,7,25,0
+661,Potato (1kg),25,0,8,12,0
+662,Coffee Powder,500,5,8,6,1
+663,Milk Packet (1L),60,0,3,46,0
+664,Rice (5kg),250,5,8,24,0
+665,Milk Packet (1L),60,0,5,1,0
+666,Coffee Powder,500,5,10,3,1
+667,Bath Soap,35,18,10,10,0
+668,Coffee Powder,500,5,8,12,1
+669,Toothpaste,90,12,2,35,1
+670,Potato (1kg),25,0,4,49,0
+671,Coffee Powder,500,5,6,45,0
+672,Sugar (1kg),45,5,2,41,0
+673,Bath Soap,35,18,4,38,0
+674,Detergent Powder,300,18,4,29,1
+675,Toothpaste,90,12,9,3,0
+676,Tea Powder (500g),220,5,8,22,0
+677,Detergent Powder,300,18,2,23,1
+678,Potato (1kg),25,0,3,1,1
+679,Cooking Oil (1L),180,5,0,5,0
+680,Biscuits (Pack),40,12,1,20,0
+681,Wheat Flour (2kg),120,5,5,25,1
+682,Bath Soap,35,18,6,33,1
+683,Coffee Powder,500,5,9,47,1
+684,Detergent Powder,300,18,1,14,0
+685,Detergent Powder,300,18,0,39,0
+686,Milk Packet (1L),60,0,10,18,1
+687,Tea Powder (500g),220,5,9,39,1
+688,Sugar (1kg),45,5,4,4,0
+689,Toothpaste,90,12,4,13,1
+690,Tea Powder (500g),220,5,2,31,0
+691,Bread (Loaf),50,5,3,29,1
+692,Coffee Powder,500,5,0,4,1
+693,Rice (5kg),250,5,10,42,0
+694,Bread (Loaf),50,5,0,16,0
+695,Rice (5kg),250,5,7,17,0
+696,Wheat Flour (2kg),120,5,8,26,0
+697,Bath Soap,35,18,2,21,0
+698,Wheat Flour (2kg),120,5,2,34,0
+699,Rice (5kg),250,5,10,35,0
+700,Potato (1kg),25,0,2,5,0
+701,Toothpaste,90,12,4,46,0
+702,Milk Packet (1L),60,0,0,50,1
+703,Biscuits (Pack),40,12,9,49,0
+704,Coffee Powder,500,5,0,22,0
+705,Bread (Loaf),50,5,8,33,1
+706,Rice (5kg),250,5,4,18,0
+707,Detergent Powder,300,18,6,19,1
+708,Cooking Oil (1L),180,5,0,4,0
+709,Coffee Powder,500,5,0,18,1
+710,Sugar (1kg),45,5,6,21,1
+711,Salt Packet (1kg),20,0,0,16,0
+712,Milk Packet (1L),60,0,8,24,1
+713,Salt Packet (1kg),20,0,7,37,1
+714,Detergent Powder,300,18,8,43,1
+715,Sugar (1kg),45,5,5,16,1
+716,Cooking Oil (1L),180,5,4,25,1
+717,Wheat Flour (2kg),120,5,10,28,1
+718,Wheat Flour (2kg),120,5,2,29,0
+719,Cooking Oil (1L),180,5,7,9,1
+720,Tea Powder (500g),220,5,8,33,0
+721,Coffee Powder,500,5,2,45,1
+722,Detergent Powder,300,18,5,10,1
+723,Bath Soap,35,18,9,48,0
+724,Cooking Oil (1L),180,5,8,17,1
+725,Bread (Loaf),50,5,3,23,1
+726,Bath Soap,35,18,1,26,1
+727,Bath Soap,35,18,3,38,0
+728,Sugar (1kg),45,5,1,48,0
+729,Bath Soap,35,18,10,7,1
+730,Sugar (1kg),45,5,4,35,1
+731,Milk Packet (1L),60,0,7,26,1
+732,Toothpaste,90,12,9,40,1
+733,Bread (Loaf),50,5,7,31,0
+734,Cooking Oil (1L),180,5,6,14,1
+735,Cooking Oil (1L),180,5,9,4,0
+736,Biscuits (Pack),40,12,9,9,0
+737,Wheat Flour (2kg),120,5,2,32,1
+738,Coffee Powder,500,5,6,43,0
+739,Bread (Loaf),50,5,8,30,0
+740,Potato (1kg),25,0,5,2,1
+741,Toothpaste,90,12,3,46,0
+742,Onion (1kg),30,0,6,18,0
+743,Salt Packet (1kg),20,0,2,43,0
+744,Toothpaste,90,12,9,12,0
+745,Bread (Loaf),50,5,0,40,1
+746,Rice (5kg),250,5,5,29,1
+747,Onion (1kg),30,0,6,7,0
+748,Salt Packet (1kg),20,0,3,33,1
+749,Rice (5kg),250,5,3,17,1
+750,Onion (1kg),30,0,10,12,0
+751,Detergent Powder,300,18,2,27,0
+752,Coffee Powder,500,5,6,13,1
+753,Toothpaste,90,12,1,12,1
+754,Tea Powder (500g),220,5,8,36,1
+755,Wheat Flour (2kg),120,5,2,17,1
+756,Cooking Oil (1L),180,5,3,29,0
+757,Sugar (1kg),45,5,10,16,1
+758,Rice (5kg),250,5,7,1,1
+759,Toothpaste,90,12,8,15,0
+760,Milk Packet (1L),60,0,1,45,1
+761,Onion (1kg),30,0,0,6,0
+762,Biscuits (Pack),40,12,5,42,0
+763,Wheat Flour (2kg),120,5,1,43,1
+764,Rice (5kg),250,5,4,41,1
+765,Biscuits (Pack),40,12,0,18,1
+766,Onion (1kg),30,0,1,13,0
+767,Bread (Loaf),50,5,2,9,1
+768,Cooking Oil (1L),180,5,2,7,0
+769,Tea Powder (500g),220,5,8,33,1
+770,Milk Packet (1L),60,0,10,15,1
+771,Sugar (1kg),45,5,6,12,1
+772,Tea Powder (500g),220,5,3,9,1
+773,Milk Packet (1L),60,0,8,25,1
+774,Cooking Oil (1L),180,5,1,47,1
+775,Biscuits (Pack),40,12,9,4,0
+776,Potato (1kg),25,0,1,42,1
+777,Sugar (1kg),45,5,3,4,0
+778,Wheat Flour (2kg),120,5,6,42,0
+779,Bread (Loaf),50,5,1,12,0
+780,Bath Soap,35,18,2,43,1
+781,Biscuits (Pack),40,12,10,31,0
+782,Rice (5kg),250,5,5,23,0
+783,Potato (1kg),25,0,2,49,0
+784,Milk Packet (1L),60,0,1,15,1
+785,Detergent Powder,300,18,1,42,1
+786,Potato (1kg),25,0,1,30,1
+787,Toothpaste,90,12,4,45,0
+788,Potato (1kg),25,0,7,12,1
+789,Onion (1kg),30,0,3,35,1
+790,Bath Soap,35,18,6,17,1
+791,Bread (Loaf),50,5,1,6,0
+792,Detergent Powder,300,18,6,12,0
+793,Bread (Loaf),50,5,4,5,1
+794,Tea Powder (500g),220,5,10,13,0
+795,Tea Powder (500g),220,5,5,25,1
+796,Wheat Flour (2kg),120,5,0,12,1
+797,Potato (1kg),25,0,9,50,1
+798,Biscuits (Pack),40,12,3,8,1
+799,Bath Soap,35,18,1,46,0
+800,Biscuits (Pack),40,12,6,37,1
+801,Bread (Loaf),50,5,3,14,0
+802,Onion (1kg),30,0,5,1,0
+803,Tea Powder (500g),220,5,0,15,0
+804,Cooking Oil (1L),180,5,8,19,0
+805,Onion (1kg),30,0,3,1,0
+806,Wheat Flour (2kg),120,5,8,4,1
+807,Cooking Oil (1L),180,5,4,42,0
+808,Tea Powder (500g),220,5,5,38,1
+809,Cooking Oil (1L),180,5,1,37,1
+810,Onion (1kg),30,0,1,35,0
+811,Bread (Loaf),50,5,8,3,1
+812,Rice (5kg),250,5,9,26,0
+813,Coffee Powder,500,5,2,19,1
+814,Onion (1kg),30,0,1,7,1
+815,Salt Packet (1kg),20,0,3,29,1
+816,Wheat Flour (2kg),120,5,2,6,1
+817,Milk Packet (1L),60,0,10,36,0
+818,Bread (Loaf),50,5,1,20,1
+819,Bath Soap,35,18,9,30,1
+820,Rice (5kg),250,5,5,8,0
+821,Sugar (1kg),45,5,7,35,1
+822,Bread (Loaf),50,5,7,28,1
+823,Biscuits (Pack),40,12,3,30,0
+824,Rice (5kg),250,5,4,2,0
+825,Potato (1kg),25,0,10,29,0
+826,Bread (Loaf),50,5,1,6,0
+827,Detergent Powder,300,18,4,10,1
+828,Milk Packet (1L),60,0,6,43,1
+829,Milk Packet (1L),60,0,6,8,1
+830,Detergent Powder,300,18,7,9,1
+831,Potato (1kg),25,0,10,32,0
+832,Bread (Loaf),50,5,7,2,1
+833,Rice (5kg),250,5,3,40,1
+834,Bath Soap,35,18,1,40,1
+835,Detergent Powder,300,18,7,12,1
+836,Onion (1kg),30,0,6,8,1
+837,Potato (1kg),25,0,4,6,0
+838,Sugar (1kg),45,5,0,41,0
+839,Cooking Oil (1L),180,5,10,2,0
+840,Toothpaste,90,12,2,22,0
+841,Onion (1kg),30,0,8,20,0
+842,Potato (1kg),25,0,4,41,0
+843,Sugar (1kg),45,5,8,28,1
+844,Rice (5kg),250,5,1,29,1
+845,Toothpaste,90,12,7,35,1
+846,Toothpaste,90,12,6,33,0
+847,Toothpaste,90,12,4,25,1
+848,Rice (5kg),250,5,7,45,1
+849,Milk Packet (1L),60,0,0,49,1
+850,Salt Packet (1kg),20,0,0,15,1
+851,Onion (1kg),30,0,9,20,0
+852,Rice (5kg),250,5,1,22,1
+853,Wheat Flour (2kg),120,5,1,8,0
+854,Detergent Powder,300,18,0,18,0
+855,Salt Packet (1kg),20,0,4,33,0
+856,Bath Soap,35,18,2,49,1
+857,Coffee Powder,500,5,7,25,0
+858,Milk Packet (1L),60,0,9,14,1
+859,Salt Packet (1kg),20,0,10,49,1
+860,Tea Powder (500g),220,5,10,10,1
+861,Onion (1kg),30,0,8,7,0
+862,Toothpaste,90,12,2,28,0
+863,Coffee Powder,500,5,2,41,0
+864,Detergent Powder,300,18,7,26,1
+865,Bread (Loaf),50,5,6,10,1
+866,Coffee Powder,500,5,1,48,1
+867,Detergent Powder,300,18,10,9,1
+868,Bread (Loaf),50,5,2,43,0
+869,Cooking Oil (1L),180,5,5,5,1
+870,Onion (1kg),30,0,4,40,0
+871,Milk Packet (1L),60,0,4,21,0
+872,Biscuits (Pack),40,12,10,21,0
+873,Cooking Oil (1L),180,5,3,7,1
+874,Onion (1kg),30,0,10,33,0
+875,Sugar (1kg),45,5,1,6,1
+876,Rice (5kg),250,5,2,38,0
+877,Tea Powder (500g),220,5,5,3,0
+878,Rice (5kg),250,5,1,20,0
+879,Detergent Powder,300,18,2,29,0
+880,Tea Powder (500g),220,5,8,14,1
+881,Bath Soap,35,18,4,20,1
+882,Coffee Powder,500,5,8,39,1
+883,Bath Soap,35,18,9,20,0
+884,Bath Soap,35,18,2,46,0
+885,Bread (Loaf),50,5,2,29,0
+886,Rice (5kg),250,5,9,40,1
+887,Potato (1kg),25,0,4,26,0
+888,Cooking Oil (1L),180,5,6,11,1
+889,Wheat Flour (2kg),120,5,1,50,1
+890,Salt Packet (1kg),20,0,1,18,0
+891,Potato (1kg),25,0,8,43,1
+892,Rice (5kg),250,5,4,28,1
+893,Detergent Powder,300,18,5,35,1
+894,Bread (Loaf),50,5,7,14,1
+895,Biscuits (Pack),40,12,7,16,0
+896,Bread (Loaf),50,5,9,38,0
+897,Potato (1kg),25,0,1,22,0
+898,Coffee Powder,500,5,5,29,0
+899,Rice (5kg),250,5,2,27,0
+900,Sugar (1kg),45,5,8,5,0
+901,Coffee Powder,500,5,9,39,1
+902,Wheat Flour (2kg),120,5,9,13,1
+903,Milk Packet (1L),60,0,4,13,0
+904,Milk Packet (1L),60,0,5,18,0
+905,Bath Soap,35,18,9,23,1
+906,Onion (1kg),30,0,2,35,0
+907,Detergent Powder,300,18,3,48,0
+908,Potato (1kg),25,0,1,15,0
+909,Biscuits (Pack),40,12,10,29,0
+910,Tea Powder (500g),220,5,8,4,1
+911,Detergent Powder,300,18,9,27,0
+912,Wheat Flour (2kg),120,5,4,11,1
+913,Coffee Powder,500,5,0,8,0
+914,Milk Packet (1L),60,0,8,12,0
+915,Toothpaste,90,12,2,3,0
+916,Tea Powder (500g),220,5,10,45,1
+917,Detergent Powder,300,18,2,46,0
+918,Onion (1kg),30,0,2,20,0
+919,Wheat Flour (2kg),120,5,3,47,0
+920,Coffee Powder,500,5,4,20,0
+921,Potato (1kg),25,0,2,44,0
+922,Biscuits (Pack),40,12,4,19,0
+923,Bath Soap,35,18,8,1,0
+924,Potato (1kg),25,0,6,49,1
+925,Coffee Powder,500,5,10,42,0
+926,Potato (1kg),25,0,6,27,0
+927,Biscuits (Pack),40,12,6,6,0
+928,Sugar (1kg),45,5,3,29,0
+929,Cooking Oil (1L),180,5,3,17,0
+930,Salt Packet (1kg),20,0,6,5,0
+931,Detergent Powder,300,18,6,41,0
+932,Onion (1kg),30,0,9,4,1
+933,Bread (Loaf),50,5,5,31,1
+934,Detergent Powder,300,18,10,1,0
+935,Milk Packet (1L),60,0,8,10,1
+936,Wheat Flour (2kg),120,5,0,26,1
+937,Milk Packet (1L),60,0,3,50,1
+938,Milk Packet (1L),60,0,7,16,1
+939,Cooking Oil (1L),180,5,8,5,1
+940,Toothpaste,90,12,5,6,1
+941,Milk Packet (1L),60,0,6,45,0
+942,Wheat Flour (2kg),120,5,1,44,1
+943,Detergent Powder,300,18,6,39,0
+944,Cooking Oil (1L),180,5,0,7,1
+945,Milk Packet (1L),60,0,10,35,1
+946,Sugar (1kg),45,5,0,2,1
+947,Toothpaste,90,12,2,35,1
+948,Milk Packet (1L),60,0,7,39,1
+949,Detergent Powder,300,18,0,6,1
+950,Onion (1kg),30,0,7,42,0
+951,Biscuits (Pack),40,12,5,17,0
+952,Coffee Powder,500,5,9,3,1
+953,Potato (1kg),25,0,8,24,1
+954,Wheat Flour (2kg),120,5,4,37,0
+955,Cooking Oil (1L),180,5,0,17,1
+956,Coffee Powder,500,5,10,18,1
+957,Bread (Loaf),50,5,3,5,1
+958,Cooking Oil (1L),180,5,0,23,1
+959,Rice (5kg),250,5,1,26,0
+960,Toothpaste,90,12,7,9,0
+961,Bread (Loaf),50,5,7,26,0
+962,Onion (1kg),30,0,8,47,0
+963,Coffee Powder,500,5,10,40,1
+964,Onion (1kg),30,0,0,41,0
+965,Detergent Powder,300,18,0,11,0
+966,Potato (1kg),25,0,9,20,1
+967,Bread (Loaf),50,5,6,49,1
+968,Biscuits (Pack),40,12,7,15,1
+969,Toothpaste,90,12,6,21,1
+970,Toothpaste,90,12,8,23,1
+971,Bath Soap,35,18,8,31,0
+972,Bath Soap,35,18,1,17,1
+973,Bath Soap,35,18,9,8,0
+974,Salt Packet (1kg),20,0,3,17,1
+975,Salt Packet (1kg),20,0,4,16,0
+976,Detergent Powder,300,18,7,43,0
+977,Rice (5kg),250,5,0,29,1
+978,Salt Packet (1kg),20,0,8,19,0
+979,Detergent Powder,300,18,6,9,1
+980,Rice (5kg),250,5,8,6,0
+981,Onion (1kg),30,0,8,4,1
+982,Coffee Powder,500,5,7,39,0
+983,Biscuits (Pack),40,12,8,25,0
+984,Rice (5kg),250,5,2,18,1
+985,Milk Packet (1L),60,0,5,37,1
+986,Toothpaste,90,12,2,19,1
+987,Wheat Flour (2kg),120,5,7,19,0
+988,Wheat Flour (2kg),120,5,0,10,1
+989,Onion (1kg),30,0,10,17,0
+990,Rice (5kg),250,5,5,10,1
+991,Wheat Flour (2kg),120,5,10,26,1
+992,Coffee Powder,500,5,9,31,0
+993,Onion (1kg),30,0,5,45,1
+994,Sugar (1kg),45,5,6,32,0
+995,Salt Packet (1kg),20,0,4,36,0
+996,Cooking Oil (1L),180,5,0,13,0
+997,Coffee Powder,500,5,7,15,1
+998,Bread (Loaf),50,5,5,36,1
+999,Detergent Powder,300,18,10,42,1
+1000,Coffee Powder,500,5,5,48,1

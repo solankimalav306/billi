@@ -1,0 +1,52 @@
+/* General styling for TableView */
+.table-view {
+    -fx-font-family: "Segoe UI";
+    -fx-border-width: 0; /* Remove outer border */
+    -fx-background-insets: 0; /* Ensure no inset border is applied */
+    -fx-background-color: transparent; /* Set a clean background */
+}
+
+/* Remove focus border (gray or blue outline) */
+.table-view:focused {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-insets: 0;
+}
+
+/* Styling for column header text */
+.table-view .column-header .label {
+    -fx-text-fill: white; /* Set header text color */
+    -fx-font-weight: bold; /* Keep header text bold */
+}
+
+/* Remove all borders from the column header */
+.table-view .column-header {
+    -fx-background-color: #004C8F;
+    -fx-border-width: 0;
+}
+
+/* Remove borders from the column header background */
+.table-view .column-header-background {
+    -fx-border-width: 0;
+}
+
+/* Styling for table rows and cells */
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: black;
+}
+
+.table-view .table-cell {
+    -fx-border-width: 0; /* No borders for table cells */
+}
+
+/* Set row hover effect */
+.table-view .table-row-cell:hover {
+    -fx-background-color: #f0f0f0; /* Light gray hover effect */
+}
+
+/* Remove selection highlight (optional) */
+.table-view:focused .table-row-cell:selected {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
