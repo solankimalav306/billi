@@ -2,14 +2,17 @@ package org.example;
 
 import com.itextpdf.io.image.ImageData;
 import com.itextpdf.io.image.ImageDataFactory;
+import com.itextpdf.kernel.colors.DeviceGray;
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Cell;
 import com.itextpdf.layout.element.Image;
 import com.itextpdf.layout.element.Paragraph;
 import com.itextpdf.layout.element.Table;
 import com.itextpdf.layout.properties.HorizontalAlignment;
 import com.itextpdf.layout.properties.TextAlignment;
+import com.itextpdf.layout.properties.UnitValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -22,8 +25,15 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.URL;
+import java.util.Comparator;
 import java.util.ResourceBundle;
+
+import com.itextpdf.barcodes.Barcode128;
+import com.itextpdf.layout.element.*;
+import javafx.scene.control.*;
+
 
 public class HomeController implements Initializable {
     public itemlist items;
@@ -128,6 +138,7 @@ public class HomeController implements Initializable {
         items = org.example.itemlist.getInstance();
         organisation = org.example.Organisation.getInstance();
         customerID = 0;
+        BillNumber = getLastBillNumber();
     }
 
     @Override
@@ -251,64 +262,89 @@ public class HomeController implements Initializable {
         BillNumber++;
     }
 
+    private int getLastBillNumber() {
+        File directory = new File("D:/code/Java Prep/Projects/Billi/bill_pdfs");
+        if (!directory.exists()) {
+            directory.mkdirs();
+            return 0;
+        }
+        File[] files = directory.listFiles((dir, name) -> name.endsWith(".pdf"));
+        if (files == null || files.length == 0) {
+            return 0;
+        }
+        return FXCollections.observableArrayList(files).stream()
+                .map(file -> Integer.parseInt(file.getName().replace(".pdf", "")))
+                .max(Comparator.naturalOrder())
+                .orElse(0);
+    }
+
     @FXML
     public void handleprintbillClick() {
         try {
-
-            FileChooser fileChooser = new FileChooser();
-            fileChooser.setTitle("Save PDF Invoice");
-            fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("PDF Files", "*.pdf"));
-            File file = fileChooser.showSaveDialog(new Stage());
-            if (file != null) {
-                PdfWriter writer = new PdfWriter(file.getAbsolutePath());
-                PdfDocument pdfDocument = new PdfDocument(writer);
-                Document document = new Document(pdfDocument);
-                String logoPath = "D:\\code\\Java Prep\\Projects\\Billi\\dir\\logo.png";
-                ImageData imageData = ImageDataFactory.create(logoPath);
-                Image logo = new Image(imageData);
-                logo.setWidth(100);
-                logo.setHeight(100);
-                logo.setHorizontalAlignment(HorizontalAlignment.CENTER);
-                document.add(logo);
-                document.add(new Paragraph(organisation.getName()).setBold().setFontSize(24).setTextAlignment(TextAlignment.CENTER));
-                document.add(new Paragraph("Billing Invoice").setBold().setFontSize(20).setTextAlignment(TextAlignment.CENTER));
-                document.add(new Paragraph("\n"));
-                float[] columnWidths = {60F, 120F, 80F, 80F, 80F, 80F, 60F};
-                Table table = new Table(columnWidths);
-                table.addCell("S.No");
-                table.addCell("Product Name");
-                table.addCell("Price");
-                table.addCell("GST (%)");
-                table.addCell("Discount (%)");
-                table.addCell("Loyalty Points");
-                table.addCell("Quantity");
-                for (billitem item : observablelist) {
-                    table.addCell(String.valueOf(item.getSerialNumber()));
-                    table.addCell(item.getProductName());
-                    table.addCell(String.format("%.2f", item.getPrice()));
-                    table.addCell(String.format("%.2f", item.getGstApplicable()));
-                    table.addCell(String.format("%.2f", item.getDiscount()));
-                    table.addCell(String.valueOf(item.getLoyaltyPoints()));
-                    table.addCell(String.valueOf(item.getQuantity()));
-                }
-
-                document.add(table);
-                document.add(new Paragraph("\n"));
-                document.add(new Paragraph("Net Total: ₹" + netTotal.getText()));
-                document.add(new Paragraph("Total Taxes: ₹" + nettaxes.getText()));
-                document.add(new Paragraph("Total Discount: ₹" + netDiscount.getText()));
-                document.add(new Paragraph("Total Loyalty Points: " + totalLoyalitypts.getText()));
-                organisation.getCustomers().get(customerID-1).setPoints(organisation.getCustomers().get(customerID-1).getPoints()+Integer.parseInt(totalLoyalitypts.getText()));
-                document.add(new Paragraph("Total Quantity: " + totalquantity.getText()));
-                document.close();
-                System.out.println("PDF Invoice generated successfully at: " + file.getAbsolutePath());
+            File directory = new File("D:/code/Java Prep/Projects/Billi/bill_pdfs");
+            if (!directory.exists()) {
+                directory.mkdirs();
             }
+            String filePath = directory.getAbsolutePath() + "/" + BillNumber + ".pdf";
+            PdfWriter writer = new PdfWriter(filePath);
+            PdfDocument pdfDocument = new PdfDocument(writer);
+            Document document = new Document(pdfDocument);
+
+            String logoPath = "D:/code/Java Prep/Projects/Billi/dir/logo.png";
+            ImageData imageData = ImageDataFactory.create(logoPath);
+            Image logo = new Image(imageData);
+            logo.setWidth(100);
+            logo.setHeight(100);
+            logo.setHorizontalAlignment(HorizontalAlignment.CENTER);
+            document.add(logo);
+            document.add(new Paragraph(organisation.getName()).setBold().setFontSize(24).setTextAlignment(TextAlignment.CENTER));
+            document.add(new Paragraph("Billing Invoice #"+BillNumber).setBold().setFontSize(20).setTextAlignment(TextAlignment.CENTER));
+            document.add(new Paragraph("\n"));
+
+            float[] columnWidths = {60F, 120F, 80F, 80F, 80F, 80F, 60F};
+            Table table = new Table(columnWidths);
+            table.addCell("S.No").setBold();
+            table.addCell("Product Name").setBold();
+            table.addCell("Price").setBold();
+            table.addCell("GST (%)").setBold();
+            table.addCell("Discount (%)").setBold();
+            table.addCell("Loyalty Points").setBold();
+            table.addCell("Quantity").setBold();
+            for (billitem item : observablelist) {
+                table.addCell(String.valueOf(item.getSerialNumber()));
+                table.addCell(item.getProductName());
+                table.addCell(String.format("%.2f", item.getPrice()));
+                table.addCell(String.format("%.2f", item.getGstApplicable()));
+                table.addCell(String.format("%.2f", item.getDiscount()));
+                table.addCell(String.valueOf(item.getLoyaltyPoints()));
+                table.addCell(String.valueOf(item.getQuantity()));
+            }
+
+            document.add(table);
+
+            document.add(new Paragraph("\n"));
+
+            Table detailsTable = new Table(UnitValue.createPercentArray(new float[]{50, 50})).useAllAvailableWidth();
+            detailsTable.addCell(new Paragraph("Net Total: ₹" + netTotal.getText()));
+            detailsTable.addCell(new Paragraph("Total Taxes: ₹" + nettaxes.getText()));
+            detailsTable.addCell(new Paragraph("Total Discount: ₹" + netDiscount.getText()));
+            detailsTable.addCell(new Paragraph("Total Loyalty Points: " + totalLoyalitypts.getText()));
+            detailsTable.addCell(new Paragraph("Total Quantity: " + totalquantity.getText()));
+            document.add(detailsTable);
+
+            organisation.getCustomers().get(customerID - 1).setPoints(organisation.getCustomers().get(customerID - 1).getPoints() + Integer.parseInt(totalLoyalitypts.getText()));
+            document.add(new Paragraph("Total Amount: ₹" + priceTotal.getText()).setBold().setFontSize(18).setTextAlignment(TextAlignment.LEFT));
+            Paragraph footer = new Paragraph("Generated with Love❤️, Billi").setFontSize(12).setTextAlignment(TextAlignment.CENTER);
+            footer.setFontColor(DeviceGray.GRAY);
+            document.add(footer);
+
+            document.close();
+            System.out.println("PDF Invoice generated successfully at: " + filePath);
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Error generating PDF: " + e.getMessage());
         }
     }
-
 
     @FXML
     public void handleemailbillClick() {
