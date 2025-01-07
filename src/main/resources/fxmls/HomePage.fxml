@@ -23,8 +23,7 @@
       <Button fx:id="AddItems" layoutX="46.0" layoutY="391.0" mnemonicParsing="false" onAction="#handleAddItemsClick" prefHeight="54.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
       <Button fx:id="Customers" layoutX="46.0" layoutY="452.0" mnemonicParsing="false" onAction="#handleCustomersClick" prefHeight="54.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
       <Button fx:id="NewBilling" layoutX="46.0" layoutY="515.0" mnemonicParsing="false" onAction="#handleNewBillingClick" prefHeight="159.0" prefWidth="157.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
-      <Button fx:id="printbill" layoutX="937.0" layoutY="574.0" mnemonicParsing="false" onAction="#handleprintbillClick" prefHeight="96.0" prefWidth="138.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
-      <Button fx:id="emailbill" layoutX="1087.0" layoutY="574.0" mnemonicParsing="false" onAction="#handleemailbillClick" prefHeight="96.0" prefWidth="138.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
+      <Button fx:id="printbill" layoutX="932.0" layoutY="570.0" mnemonicParsing="false" onAction="#handleprintbillClick" prefHeight="102.0" prefWidth="292.0" style="-fx-background-radius: 17; -fx-opacity: 0;" />
       <Label fx:id="priceD" layoutX="998.0" layoutY="384.0" text="00.00" textFill="WHITE">
          <font>
             <Font name="Segoe UI Bold" size="30.0" />
@@ -165,5 +164,17 @@
             <Font name="Segoe UI Bold" size="15.0" />
          </font>
       </Text>
+      <Label fx:id="CustName" layoutX="951.0" layoutY="528.0" text="Name" textFill="#004c8f">
+         <font>
+            <Font name="Segoe UI Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="CustPts" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="1154.0" layoutY="526.0" prefHeight="24.0" prefWidth="54.0" text="0" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CustID" layoutX="944.0" layoutY="468.0" prefHeight="40.0" prefWidth="157.0" promptText="Enter Customer ID" style="-fx-background-color: FFFFFF;" />
+      <Button fx:id="SearchC" layoutX="1191.0" layoutY="470.0" minWidth="9.0" mnemonicParsing="false" onAction="#handleSearchCClick" prefHeight="37.0" prefWidth="54.0" style="-fx-background-radius: 12; -fx-opacity: 0;" />
    </children>
 </AnchorPane>

@@ -27,6 +27,9 @@ import java.util.ResourceBundle;
 
 public class HomeController implements Initializable {
     public itemlist items;
+    public Organisation organisation;
+    int customerID;
+    int BillNumber;
     @FXML
     private Button Dashboard;
     @FXML
@@ -67,6 +70,9 @@ public class HomeController implements Initializable {
     private TextField SearchProductD;
 
     @FXML
+    private TextField CustID;
+
+    @FXML
     private TextField itemnoB;
 
     @FXML
@@ -74,6 +80,15 @@ public class HomeController implements Initializable {
 
     @FXML
     private Button SearchD;
+
+    @FXML
+    private Button SearchC;
+
+    @FXML
+    public Label CustName;
+
+    @FXML
+    public Label CustPts;
 
     @FXML
     public TableView<billitem> newTableView;
@@ -111,6 +126,8 @@ public class HomeController implements Initializable {
 
     public HomeController() {
         items = org.example.itemlist.getInstance();
+        organisation = org.example.Organisation.getInstance();
+        customerID = 0;
     }
 
     @Override
@@ -141,10 +158,23 @@ public class HomeController implements Initializable {
         }
     }
 
+    public void displayCustomerDetails(int CustomerID) {
+        customer newCustomer = organisation.getCustomers().get(CustomerID - 1);
+        customerID = CustomerID;
+        CustName.setText(newCustomer.getName());
+        CustPts.setText(newCustomer.getPoints()+"");
+    }
+
     @FXML
     public void handleSearchClick(ActionEvent event) {
         int QueryProductID = Integer.parseInt(SearchProductD.getText());
         displayProductDetails(QueryProductID);
+    }
+
+    @FXML
+    public void handleSearchCClick(ActionEvent event) {
+        int CustomerID = Integer.parseInt(CustID.getText());
+        displayCustomerDetails(CustomerID);
     }
 
     @FXML
@@ -217,12 +247,14 @@ public class HomeController implements Initializable {
 
     @FXML
     public void handleNewBillingClick() {
-        System.out.println("NewBilling clicked");
+        System.out.println("NewBill");
+        BillNumber++;
     }
 
     @FXML
     public void handleprintbillClick() {
         try {
+
             FileChooser fileChooser = new FileChooser();
             fileChooser.setTitle("Save PDF Invoice");
             fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("PDF Files", "*.pdf"));
@@ -238,17 +270,8 @@ public class HomeController implements Initializable {
                 logo.setHeight(100);
                 logo.setHorizontalAlignment(HorizontalAlignment.CENTER);
                 document.add(logo);
-                document.add(new Paragraph("Your Organization Name")
-                        .setBold()
-                        .setFontSize(24)
-                        .setTextAlignment(TextAlignment.CENTER));
-
-                document.add(new Paragraph("Billing Invoice")
-                        .setBold()
-                        .setFontSize(20)
-                        .setTextAlignment(TextAlignment.CENTER));
-
-
+                document.add(new Paragraph(organisation.getName()).setBold().setFontSize(24).setTextAlignment(TextAlignment.CENTER));
+                document.add(new Paragraph("Billing Invoice").setBold().setFontSize(20).setTextAlignment(TextAlignment.CENTER));
                 document.add(new Paragraph("\n"));
                 float[] columnWidths = {60F, 120F, 80F, 80F, 80F, 80F, 60F};
                 Table table = new Table(columnWidths);
@@ -275,6 +298,7 @@ public class HomeController implements Initializable {
                 document.add(new Paragraph("Total Taxes: ₹" + nettaxes.getText()));
                 document.add(new Paragraph("Total Discount: ₹" + netDiscount.getText()));
                 document.add(new Paragraph("Total Loyalty Points: " + totalLoyalitypts.getText()));
+                organisation.getCustomers().get(customerID-1).setPoints(organisation.getCustomers().get(customerID-1).getPoints()+Integer.parseInt(totalLoyalitypts.getText()));
                 document.add(new Paragraph("Total Quantity: " + totalquantity.getText()));
                 document.close();
                 System.out.println("PDF Invoice generated successfully at: " + file.getAbsolutePath());

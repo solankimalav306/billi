@@ -16,9 +16,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
-import java.util.List;
 
-public class Uploadtest2Controller {
+public class Uploadtest3Controller {
     @FXML
     private Button uploadButton;
 
@@ -62,7 +61,7 @@ public class Uploadtest2Controller {
     }
 
     public void Loader(ActionEvent event) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxmls/uploadcsv2.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxmls/HomePage.fxml"));
         Parent root = loader.load();
         Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Scene currentScene = new Scene(root);
@@ -77,15 +76,14 @@ public class Uploadtest2Controller {
             Files.createDirectories(internalDirPath);
         }
 
-        Path destinationPath = internalDirPath.resolve("data.csv");
+        Path destinationPath = internalDirPath.resolve("Cdata.csv");
         Files.copy(file.toPath(), destinationPath, StandardCopyOption.REPLACE_EXISTING);
     }
 
     private void loadDataIntoSingleton() {
-        itemlist itemList = itemlist.getInstance();
-        String filePath = INTERNAL_DIR + "\\data.csv";
-        itemList.loadDataFromCSV(filePath);
-        System.out.println("Data loaded into Singleton:");
-        itemList.displayItems();
+        Organisation organisation =Organisation.getInstance();
+        String filePath = INTERNAL_DIR + "\\Cdata.csv";
+        organisation.loadData(filePath);
+        System.out.println("Customer Data loaded into Singleton:");
     }
 }

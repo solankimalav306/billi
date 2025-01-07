@@ -20,7 +20,7 @@
             <Font name="Segoe UI Bold" size="23.0" />
          </font>
       </Button>
-      <TextField layoutX="121.0" layoutY="390.0" prefHeight="64.0" prefWidth="452.0" promptText="Enter your Organisation Name!" style="-fx-background-color: FFFFFF;">
+      <TextField fx:id="OrgName" layoutX="121.0" layoutY="390.0" prefHeight="64.0" prefWidth="452.0" promptText="Enter your Organisation Name!" style="-fx-background-color: FFFFFF;">
          <font>
             <Font name="Segoe UI" size="17.0" />
          </font>

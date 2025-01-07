@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -20,13 +21,16 @@ import java.nio.file.StandardCopyOption;
 public class StartController {
     @FXML
     private Button nextbutton;
+    @FXML
+    private TextField OrgName;
 
     @FXML
     public void handlenextbutton(ActionEvent event) throws Exception {
+        Organisation organisation = new Organisation();
         Loader(event);
     }
     public void Loader(ActionEvent event) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxmls/Uploadtest.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxmls/Uploadname.fxml"));
         Parent root = loader.load();
         Stage currentStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         currentStage.setScene(new Scene(root));
